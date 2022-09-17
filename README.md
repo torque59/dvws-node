@@ -117,6 +117,9 @@ Start Docker
 ```
 This will start the dvws service with the backend MySQL database and the NoSQL database.
 
+Access `http://localhost:80 or http://localhost`
+
+
 If the DVWS web service doesn't start because of delayed MongoDB or MySQL setup, then increase the value of environment variable : `WAIT_HOSTS_TIMEOUT`
 
 
